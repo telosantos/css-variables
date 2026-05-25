@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s0599a",
+  "description": "https://scrimba.com/learn-css-variables-c026/~04/s0enfb1lg7/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
