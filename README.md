@@ -1,19 +1,50 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# CSS Variables Playground
+
+A small project focused on **learning, experimenting with, and understanding CSS variables (custom properties)** in a simple setup powered by Vite.
+
+This repo is meant to be:
+- Easy to read
+- Easy to modify
+- A safe place to experiment with design tokens and theming using CSS variables
+
+---
+
+## What this project demonstrates
+
+- How to define CSS variables using `:root`
+- How to reuse variables across multiple CSS files
+- How variables can control:
+  - Colours
+  - Spacing
+  - Typography
+- How changing a single variable can update the entire UI
+
+---
+
+## Project structure
+
+- **`index.html`**  
+  Basic HTML structure to visualise the styles
+
+- **`index.css`**  
+  Main stylesheet that uses CSS variables for layout and styling
+
+- **`basic.css`**  
+  Additional styles and examples  
+  A good place to test new variables or overrides
+
+- **`vite.config.js`**  
+  Vite configuration for local development
+
+- **`package.json`**  
+  Project dependencies and scripts
+
+---
+
+## Getting Started
+
+Install the dependencies and run the project locally.
+
+```bash
 npm install
 npm start
-```
-
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
